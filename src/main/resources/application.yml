@@ -1,0 +1,33 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/jrpt25
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: nxka nzmi wdif jgwb
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: shanigarambhaskar222@gmail.com
+
+app:
+  messages:
+         invalidLogin: Invalid Credentials
+         invalidPwds: both pwds should be same
+         pwdUpdatedFailed: pwd updated failed
+         regSuccess: Registation successfill
+         regFailure: Registation failed
+         quoteEndpointUrl: https://type.fit/api/quotes
+         regEmailSubject: Your account created - Bhaskar IT
+         

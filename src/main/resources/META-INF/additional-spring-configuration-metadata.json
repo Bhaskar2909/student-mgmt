@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "spring.mail.app.message",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.app.message'"
+  },
+  {
+    "name": "spring.mail.app.message",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.app.message'"
+  }
+]}
